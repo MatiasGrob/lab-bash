@@ -1,0 +1,33 @@
+Last login: Tue Nov 15 18:48:23 on console
+(base) matiasgroblunecke@Air-de-Matias ~ % 
+(base) matiasgroblunecke@Air-de-Matias ~ % mkdir IronhackLab
+(base) matiasgroblunecke@Air-de-Matias ~ % ls
+Applications		MGROB!.ipynb		Untitled.ipynb
+Desktop			MGROB.ipynb		Untitled1.ipynb
+Documents		Matías.ipynb		Untitled2.ipynb
+Downloads		Movies			Untitled3.ipynb
+GlobalProtectLogs.tgz	Music			Untitled4.ipynb
+IronhackLab		Pictures		opt
+Library			Public
+(base) matiasgroblunecke@Air-de-Matias ~ % cd IronhackLab
+(base) matiasgroblunecke@Air-de-Matias IronhackLab % git clone https://github.com/MatiasGrob/lab-bash.git
+Cloning into 'lab-bash'...
+remote: Enumerating objects: 40, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 40 (delta 14), reused 11 (delta 11), pack-reused 17
+Receiving objects: 100% (40/40), 11.61 KiB | 2.32 MiB/s, done.
+Resolving deltas: 100% (14/14), done.
+(base) matiasgroblunecke@Air-de-Matias IronhackLab % ls
+lab-bash
+(base) matiasgroblunecke@Air-de-Matias IronhackLab % cd lab-bash
+(base) matiasgroblunecke@Air-de-Matias lab-bash % ls
+exercices	lorem		outputs
+inputs		lorem-copy	readme.md
+(base) matiasgroblunecke@Air-de-Matias lab-bash % pwd
+/Users/matiasgroblunecke/IronhackLab/lab-bash
+(base) matiasgroblunecke@Air-de-Matias lab-bash % pwd
+/Users/matiasgroblunecke/IronhackLab/lab-bash
+(base) matiasgroblunecke@Air-de-Matias lab-bash % jupyter notebook
+[I 2022-11-21 14:09:01.198 LabApp] JupyterLab extension loaded from /Users/matiasgroblunecke/opt/anaconda3/lib/python3.9/site-packages/jupyterlab
+[I 2022-11-21 14:09:01.198 LabApp] JupyterLab application directory is /Users/matiasgroblunecke/opt/anaconda3/share/jupyter/lab
